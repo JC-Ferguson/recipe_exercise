@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    background-color: rgb(5, 129, 212);
+}
+
+.main_dish {
+    display: block;
+    margin: auto;
+    width: 620px;
+    height: 450px;
+    max-width: 550px;
+    max-height: 400px;
+}
+
+.altered_img {
+    max-width: 300px;
+    max-height: 500px;
+}
+
+img {
+    width: 95%;
+    height: 20%;
+    max-width: 325px;
+    max-height: 285px; 
+    display: block;
+    margin: auto;
+}
+
+ul {
+    padding: 15px 125px 15px 135px;
+    margin: 30px 75px;
+    background-color: rgb(255, 127, 80);
+    border: 1px solid black; 
+}
+
+ol {
+    padding: 15px 125px 15px 135px;
+    margin: 30px 75px; 
+    background-color: rgb(255, 127, 80);
+    border: 1px solid black; 
+}
+
+#title {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic
+}
+
+
+.headings {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace 
+}
+
+.comments_section {
+    padding: 15px 125px 15px 135px;
+    margin: 30px 75px;
+    background-color: rgb(255, 127, 80);
+    border: 1px solid black; 
+}
