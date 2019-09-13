@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
 body {
+    font-family: 'Muli', sans-serif;
     text-align: center;
     background-color: rgb(5, 129, 212);
 }
@@ -30,31 +34,31 @@ ul {
     padding: 15px 125px 15px 135px;
     margin: 30px 75px;
     background-color: rgb(255, 127, 80);
-    border: 1px solid black; 
+    border: 3px solid black; 
 }
 
 ol {
     padding: 15px 125px 15px 135px;
     margin: 30px 75px; 
     background-color: rgb(255, 127, 80);
-    border: 1px solid black; 
+    border: 3px solid black; 
 }
 
 #title {
     font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, 'Abril Fatface', sans-serif;
     font-style: italic
 }
 
 
 .headings {
     font-size: 30px;
-    font-family: 'Courier New', Courier, monospace 
+    font-family: 'Abril Fatface', Verdana, sans-serif;
 }
 
 .comments_section {
     padding: 15px 125px 15px 135px;
     margin: 30px 75px;
     background-color: rgb(255, 127, 80);
-    border: 1px solid black; 
+    border: 3px solid black; 
 }
