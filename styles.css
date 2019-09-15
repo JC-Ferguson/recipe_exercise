@@ -10,15 +10,9 @@ body {
 .main_dish {
     display: block;
     margin: auto;
-    width: 66%;
-    height: 450px;
-    max-width: 550px;
-    max-height: 400px;
-}
-
-.altered_img {
-    max-width: 300px;
-    max-height: 500px;
+    width: 75%;
+    padding:15px;
+    max-height: 400px
 }
 
 img {
@@ -38,7 +32,6 @@ ul {
 }
 
 ol {
-    padding: 15px 125px 15px 135px;
     margin: 30px 75px; 
     background-color: rgb(255, 127, 80);
     border: 3px solid black; 
@@ -66,7 +59,7 @@ figure {
 }
 
 .comments_section {
-    padding: 15px 125px 15px 135px;
+    padding: 15px;
     margin: 30px 75px;
     background-color: rgb(255, 127, 80);
     border: 3px solid black; 
@@ -77,6 +70,7 @@ figure {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        flex-shrink:1;
     }
 
     main div {
@@ -85,14 +79,33 @@ figure {
 
     li img {
         width: 150px;        
-    }
-    
+    }    
 }
 
 @media screen and (min-width:640px) {
+    body {
+        margin:10px;
+    }
+
     ul {
-        padding: 15px 20px 15px 20px;
-        margin: 30px 20px;
+        padding:25px;
+        margin: 30px 75px;
+        background-color: rgb(255, 127, 80);
+        border: 3px solid black; 
+    }
+
+    ul li {
+        padding-bottom: 15px;
+    }
+
+      ol {
+        padding-top: 25px;
+        padding-right: 20px;
+        padding-bottom: 25px;
+    }
+
+    .comments_section{
+        padding: 15px;
         background-color: rgb(255, 127, 80);
         border: 3px solid black; 
     }
